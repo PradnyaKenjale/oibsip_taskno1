@@ -1,0 +1,138 @@
+    body {
+        display: inline-block;
+        font-family: 'PT Serif', serif;
+        color: rgb(236, 204, 22);
+        margin: 0;
+        padding: 0;
+        background: url('background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: -11px;
+        top: 9px;
+    }
+
+    .left img {
+        width: 91px;
+        filter: invert(100%);
+        margin: auto 29px
+    }
+
+    .mid {
+        display: block;
+        display: inline-block;
+        width: 50%;
+        margin: 10px auto;
+        /* border: 2px solid green; */
+    }
+
+    .navbar {
+        width: 40%;
+        margin: auto;
+        padding: 9px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* border: 2px solid black; */
+        float: right;
+        margin-top: 5px;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        color: Black;
+        font-size: 25px;
+        float: left;
+        margin: 0 25px;
+        /* To set the size between two items*/
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar li a:hover {
+        /* color:rgb(19, 228, 228); */
+        color: white;
+        /* background-color: gray; */
+        background-color:grey;
+        
+    }
+
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 29px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .right btn {
+        background-color: white;
+    }
+
+    .right .btn:hover {
+        background-color: rgb(17, 219, 10);
+        cursor: pointer;
+    }
+
+    .content {
+        max-width: 44%;
+        padding: 66px 11px 0;
+        color: #fff;
+        /* border: 2px solid black; */
+        padding-left: 36px;
+    }
+
+    .content h1 {
+        font-size: 48px;
+        color: Black;
+    }
+
+    .content h3{
+        font-size: 20px;
+        padding: 19px 0;
+        font-weight: 300;
+        color: darkblue;
+        background-color: #c4d5ffe6;
+        padding-left: 75px;
+    }
+
+    .content .btn-group {
+        margin-top: 45px;
+
+    }
+
+    .content a {
+        display: inline-block;
+        padding: 15px 45px;
+        text-decoration: none;
+        color:#270f0a;
+        background-origin: 50px;
+    }
+
+    .content a.color1 {
+        background-color: #ecd506;
+        cursor: pointer;
+        border-radius: 157px;
+    
+    }
+
+    .content .btn-group a:hover {
+        color: white;
+        background-color: rgb(44, 180, 39);
+        
+    }
+
+    
+
+
